@@ -3,8 +3,9 @@ site:
   start_page: component-b::index.adoc
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
-    branches: HEAD
+  - url: https://github.com/vickyhella/vickyhella.github.io.git
+    branches: main
+    start_path: docs
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
